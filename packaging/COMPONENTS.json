@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "application": "Kinegra Home",
+  "version": "0.9.25",
+  "version_code": 61,
+  "components": [
+    {
+      "name": "Kinegra Home",
+      "version": "0.9.25",
+      "license": "MIT",
+      "license_file": "LICENSE"
+    },
+    {
+      "name": "AdbLib cryptography",
+      "revision": "d6937951eb98557c76ee2081e383d50886ce109a",
+      "license": "BSD-3-Clause",
+      "license_file": "third_party/adblib/LICENSE",
+      "source": "https://github.com/cgutman/AdbLib",
+      "compiled_classes": [
+        "AdbCrypto",
+        "AdbBase64"
+      ]
+    },
+    {
+      "name": "Android framework",
+      "version": "API34",
+      "role": "compile/system dependency; no replacement framework classes bundled",
+      "platform_jar_sha256": "6cea1df3efb77103ac3e2beb9bf4718964b0e0869ab16d39d29d5cbae1c147ad"
+    }
+  ],
+  "runtime_models": [],
+  "native_libraries": []
+}

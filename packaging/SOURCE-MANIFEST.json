@@ -1,0 +1,464 @@
+{
+  "files": {
+    ".gitignore": {
+      "mode": "100644",
+      "sha256": "919388e611a3f7983939202d0a009da5a0e904d173d65b7cb336190faef0d0c0"
+    },
+    "BUILDING.md": {
+      "mode": "100644",
+      "sha256": "b3a1607f2b0f7741546baf3840e73cee50ed9d6c23eca66dba793e63053d4eb5"
+    },
+    "LICENSE": {
+      "mode": "100644",
+      "sha256": "876e8429a69016fb87a248c0bbf831858a8cb7a7c73984013d1760553eecd026"
+    },
+    "PRIVACY.md": {
+      "mode": "100644",
+      "sha256": "c7c24ec52350a43d27deaa40072c3053816c91a58225f8d546e8fda00595a21d"
+    },
+    "README.md": {
+      "mode": "100644",
+      "sha256": "0da00609d47f9acaaf99976d9a3d6059756c584db5aa0d10c6ebcb5f048017cd"
+    },
+    "THIRD-PARTY-NOTICES.md": {
+      "mode": "100644",
+      "sha256": "b46a745b991c0760eb0f3c48fa81e99a6caad5a6e065af72551c21ade60f7bab"
+    },
+    "android/dashboard/ActionIcon.java": {
+      "mode": "100644",
+      "sha256": "12c18686186874df20e210fd9a760bb64eab94da2103849a33280b6f053541bf"
+    },
+    "android/dashboard/BrokerPolicy.java": {
+      "mode": "100644",
+      "sha256": "d440fe5533037b7abf9690db36efb0867f6d2848381d59c4b0adef13b757a32e"
+    },
+    "android/dashboard/CanvasClient.java": {
+      "mode": "100644",
+      "sha256": "19d24c21c92f370f8c2a0d282d0f6d497c105f24da941f4fb594fb2d786b548d"
+    },
+    "android/dashboard/CanvasTaskHistory.java": {
+      "mode": "100644",
+      "sha256": "6efa0243490b42cb45622c7ec15e8b81ecf163bf5f4a010b5ef3b5055f477c06"
+    },
+    "android/dashboard/ChoiceKeyPolicy.java": {
+      "mode": "100644",
+      "sha256": "c26a0f37b1df5fa9c85327231bfd8ed31c085807616b05b54a11a511ef94070e"
+    },
+    "android/dashboard/ControllerHatPolicy.java": {
+      "mode": "100644",
+      "sha256": "85c3ce1e044cbd06d4634dfb436872768271c0ed64e5e776020863a2a9b6f2c0"
+    },
+    "android/dashboard/ControllerIcons.java": {
+      "mode": "100644",
+      "sha256": "cbbfbe38a763ec333cb1d4b1a57e478d268b4ec20ce8435d5a12b2a496afb6d4"
+    },
+    "android/dashboard/ControllerMotionPolicy.java": {
+      "mode": "100644",
+      "sha256": "dd785a2b20c7502bbb049ead402fe36da80bf3f8eea49620f8a3985a656afa93"
+    },
+    "android/dashboard/DashboardActivity.java": {
+      "mode": "100644",
+      "sha256": "9794946e774f885ff017155d1c6176345c99054fbc462651a9a03008ac068698"
+    },
+    "android/dashboard/DashboardPresentationPolicy.java": {
+      "mode": "100644",
+      "sha256": "42261ff8fda6aca6037d4603ccb60033602643bcd26c9d7ad2a11645082bbfd8"
+    },
+    "android/dashboard/DiagnosticPresentation.java": {
+      "mode": "100644",
+      "sha256": "bb1d49c2fb73cc9b505ac66e9d4513a1afcf0bc37dcccacfed9d833c69eb1d9a"
+    },
+    "android/dashboard/HomeMenuPolicy.java": {
+      "mode": "100644",
+      "sha256": "ca2ff52ae44dabb02222b77ea222c1c5d20d522db39f03c38734b81a0d83a8fc"
+    },
+    "android/dashboard/LaunchRegistry.java": {
+      "mode": "100644",
+      "sha256": "e02335d95e0f94ba7df8db7e858a167f24585b4152833750beeb66db919854b4"
+    },
+    "android/dashboard/LocalAdbBootstrap.java": {
+      "mode": "100644",
+      "sha256": "a40ba1a74a3295b65f1eca06e8f7b45b6b3b4b31fbd6bd2838d9978e7b8d9394"
+    },
+    "android/dashboard/LocalAdbSession.java": {
+      "mode": "100644",
+      "sha256": "d88ce7bded707e10b0a5c075248ab01d63d3f8fe9854100e556aa7acee2cf188"
+    },
+    "android/dashboard/ModalControllerPolicy.java": {
+      "mode": "100644",
+      "sha256": "7f79a6ad490052a37b386cb14a49deb895dc6ed6a3da6fd0de11850e3acc5d53"
+    },
+    "android/dashboard/PairActivity.java": {
+      "mode": "100644",
+      "sha256": "8a3c9d5aecc0256883fb9fc8b2f7aa57dd95c6213900cbe0af9d58ece1ec5f8d"
+    },
+    "android/dashboard/PairCanvasActivity.java": {
+      "mode": "100644",
+      "sha256": "e0776ac9a95b896c060568d901dbc98a1807cdd55394a175601acc103b3bd515"
+    },
+    "android/dashboard/PairDockActivity.java": {
+      "mode": "100644",
+      "sha256": "19bb490390dc72e8c82148a412d3c4e74685bb4ade53fffa0caa12d096f0c385"
+    },
+    "android/dashboard/PairGeometry.java": {
+      "mode": "100644",
+      "sha256": "0bae7ae73a91036be4ace95cf08d6b2fada3df8f55217370098706aa25c9b16c"
+    },
+    "android/dashboard/PairProtocol.java": {
+      "mode": "100644",
+      "sha256": "00ff660453b3e760071e011a7d157ea22d577d8b1fbcf8874ec3abd1834c0f9e"
+    },
+    "android/dashboard/PairState.java": {
+      "mode": "100644",
+      "sha256": "de5a9676ca13ddae442ec3644b1711e8d0e98f098ed4d5a3e24e3fd91b95406c"
+    },
+    "android/dashboard/PairUi.java": {
+      "mode": "100644",
+      "sha256": "d6f3c4fe1193e4c692ceff0a0a9edeca1d223f59f6b1e4e0f53f25aca0318866"
+    },
+    "android/dashboard/PaneRecoveryPolicy.java": {
+      "mode": "100644",
+      "sha256": "5fb625b2b23f2ffd4eb5aa39fd42c755989263d4c1ee564d0bd4e78935fb1864"
+    },
+    "android/dashboard/ProjectionGeometry.java": {
+      "mode": "100644",
+      "sha256": "c6f53e54de7eea76e20ae3662f1edbea6a642b3a61b79a56d7d0f3b171ffa639"
+    },
+    "android/dashboard/ProjectionState.java": {
+      "mode": "100644",
+      "sha256": "f86bc3f97e8da2b0ca8185f9079f549c7c25331a725bb5aea15ff8786478e9ac"
+    },
+    "android/dashboard/RecentApps.java": {
+      "mode": "100644",
+      "sha256": "c4a5d31d8aa6ffc4dd5302f67943a0f716ca1c76895990b0d019a7915585fa51"
+    },
+    "android/dashboard/RecentCanvasPolicy.java": {
+      "mode": "100644",
+      "sha256": "a002701f6d5f905c4be7864878498102c576381d5d94eb3173d957d1f053564d"
+    },
+    "android/dashboard/RecoveryNoticePolicy.java": {
+      "mode": "100644",
+      "sha256": "93572894fb2a1c191932ecb4de68842242a26d100c3ddb374f5121a420896b4a"
+    },
+    "android/dashboard/RemoteFocusPolicy.java": {
+      "mode": "100644",
+      "sha256": "e858d192f037eed7dc21983741ead1b27077ab828437eeff3ce719c6244e41b0"
+    },
+    "android/dashboard/RemoteUiSession.java": {
+      "mode": "100644",
+      "sha256": "b5b4ba774d7accc171e910d0b2c57200944194b11679f95d7f0a72c9e877a6ee"
+    },
+    "android/dashboard/SessionShortcutPolicy.java": {
+      "mode": "100644",
+      "sha256": "0225e9e297a38476a1e26744e344b825bf3f93bd4e38566934b1cdfcda307b88"
+    },
+    "android/dashboard/SessionShortcutService.java": {
+      "mode": "100644",
+      "sha256": "d29d5a38186ae150f4db5fbd5c96281bf4e3ea7ab5c00664cedeec6a2c66e2f0"
+    },
+    "android/dashboard/ShortcutPolicy.java": {
+      "mode": "100644",
+      "sha256": "096e3fdb5847659aa24841a44997fab031f6c6b3985b1a4b9130e9e87d838b35"
+    },
+    "android/dashboard/StockHome.java": {
+      "mode": "100644",
+      "sha256": "e489ad20cd5dc9bc639e32dee66ec440b40ef9232b789a2f563565e7066cc4ae"
+    },
+    "android/dashboard/WindowBrokerClient.java": {
+      "mode": "100644",
+      "sha256": "1cb1b4305da7bd5ed0c9c1ab9194991ed28f0881f9c3fd99404de90b95b99f0b"
+    },
+    "android/dashboard/WindowBrokerProvider.java": {
+      "mode": "100644",
+      "sha256": "957a03e859ee7a9c399eee2fde35e9c64ccce7c792f926d52c97b253c810e27e"
+    },
+    "android/dashboard/WindowSessionLink.java": {
+      "mode": "100644",
+      "sha256": "244ee6b27d6f2aff2d7aa181af815be38d9bd492d321a26cb4de98fa28d8036d"
+    },
+    "android/dream/DreamCadence.java": {
+      "mode": "100644",
+      "sha256": "a6d7a0f31b567bc877ca4b24d4bfca66d176874546a131b3facdc10a4e29000a"
+    },
+    "android/dream/MetaxyDreamService.java": {
+      "mode": "100644",
+      "sha256": "02429e5ec5ac711aa1b0e82e956a0e759967fdf738ac1042004f35c010199f39"
+    },
+    "assets/launcher/README.md": {
+      "mode": "100644",
+      "sha256": "8dbdf28b12ae78028c1a6d237a45b133761131d9c7bd17b9b86862d7d5e7ecdd"
+    },
+    "assets/launcher/banner-320x180.png": {
+      "mode": "100644",
+      "sha256": "4816a3a43741e4f0e528d7f706a7d8d3f2fe5ed5640572207cb7e0cb7a994428"
+    },
+    "assets/launcher/banner-kinegra-home-320x180.png": {
+      "mode": "100644",
+      "sha256": "922bbaca2a31e299592e5052b2dda285760f58bee26367bd7d1e603c9cf54eb4"
+    },
+    "assets/launcher/banner-kinegra-home.svg": {
+      "mode": "100644",
+      "sha256": "0d32a074ae1e6bbb794c7a37f6b10faf1871267a6a794e40598054f1ffa63bc0"
+    },
+    "assets/launcher/banner-kinegrarchy-320x180.png": {
+      "mode": "100644",
+      "sha256": "705cb4a54ca92569f7b00c773a938c733f55fed11e0a0f97fe554dfb260a66e2"
+    },
+    "assets/launcher/banner-kinegrarchy-source.png": {
+      "mode": "100644",
+      "sha256": "6b08ed6e7a164d4c639db40bada042b09364f35d48ea21fd5c646e18b2bbd445"
+    },
+    "assets/launcher/icon-512.png": {
+      "mode": "100644",
+      "sha256": "571eb2a82c208cbfda76e5b38359df95251dad7464cfdab073f19e623c086473"
+    },
+    "assets/readme/README.md": {
+      "mode": "100644",
+      "sha256": "7eb3f2d9fe080b5a9ed4f6c1f38f824a82ed1323afe7c82dc071d3be2ce61ddf"
+    },
+    "assets/readme/kinegra-home-chooser-0916.png": {
+      "mode": "100644",
+      "sha256": "e1fdfba9004004dbc39f61a5993c3b5849444d8f5cce4398400f59e15f213089"
+    },
+    "assets/readme/kinegra-home-hero.png": {
+      "mode": "100644",
+      "sha256": "290c29943ba56e1c7e57de537bf20954c2b20ee84c1da1be2bfb1476e300cb99"
+    },
+    "assets/readme/kinegra-home-layouts.gif": {
+      "mode": "100644",
+      "sha256": "ad71854b6299f5df387c8b25cec02980a6bef531c6541ca3c915bcd0c6ff1d5f"
+    },
+    "assets/readme/kinegra-home-menu.png": {
+      "mode": "100644",
+      "sha256": "6d3358a4d052f8c25206f8400067bdfe00f58b5be5c57bdbad08be21ab0344a4"
+    },
+    "assets/readme/kinegra-home-split-hero.png": {
+      "mode": "100644",
+      "sha256": "e046632434592a17e848dc6a0e28f90a88ac1fcd8afc6ecad5da243c1136d0f1"
+    },
+    "assets/readme/kinegra-home-split-remote.gif": {
+      "mode": "100644",
+      "sha256": "b74ca3192a5bd086d39fa6c20fdf3044b496313410330fb264ac080b62a47513"
+    },
+    "docs/RELEASE.md": {
+      "mode": "100644",
+      "sha256": "8a7c129d5564e8164f3a931831fd13d7ee2ab50956bd0eef69a4d94a14fc3401"
+    },
+    "docs/SETUP.md": {
+      "mode": "100644",
+      "sha256": "429f4a8c3b486e30f35b29534626b629662a6759fe10bf18bcdbe8b97e8fba40"
+    },
+    "docs/TESTING.md": {
+      "mode": "100644",
+      "sha256": "7b9ee7947da1e186da624485613641edb91aafcc4e7c86477a7ffbb6008a76dd"
+    },
+    "docs/branding/README.md": {
+      "mode": "100644",
+      "sha256": "9352b69ecaf5c413149fd1f62678f126125b8c768813d7bd142e540b9665cdb1"
+    },
+    "docs/branding/kinegra-home-banner-v2.png": {
+      "mode": "100644",
+      "sha256": "3b6a9fe7721cee5f91a454c6457c2590e495e8547fa3d5fe194157d1c5badf40"
+    },
+    "harness/AndroidManifest.xml": {
+      "mode": "100644",
+      "sha256": "cfc4f0bd36654cde8375431768b99d92c80d27629c137e2292c9a5883c8cdf34"
+    },
+    "harness/res/values/strings.xml": {
+      "mode": "100644",
+      "sha256": "cff4d40f96444575e88c444e5240324e3bb6d0079df9fe7ad1b0daad9f4082a9"
+    },
+    "harness/res/xml/metaxy_dream.xml": {
+      "mode": "100644",
+      "sha256": "4234c5b568c4ca99b24caf0a0977bdb3c01b2a1496297002ddcb7400f3e848c6"
+    },
+    "harness/res/xml/session_shortcuts.xml": {
+      "mode": "100644",
+      "sha256": "ee0424a23bee9e5d467619483ec2cadc95778380154d0e657f0250395c046b13"
+    },
+    "harness/src/MetaxyHarnessActivity.kt": {
+      "mode": "100644",
+      "sha256": "c32e53e4d09391b5622da7334a953837dde09abd4951edc19a16415a17c85c9c"
+    },
+    "harness/src/SyntheticSceneModel.kt": {
+      "mode": "100644",
+      "sha256": "cda053af08809450125e585e3d17a57164460d58329eaedc31657461f430d34e"
+    },
+    "packaging/COMPONENTS.json": {
+      "mode": "100644",
+      "sha256": "c5d7d66aac19fa71e52c0e20c2ee6039678e5061e8ca452e8e5c183dd9fee4e3"
+    },
+    "tests/test_adversarial_remote_ui.java": {
+      "mode": "100644",
+      "sha256": "ae46d7997f4a8cd8fb8c45f0f8c38cd8f89b2035eb3f685f475628bdfb1cedbf"
+    },
+    "tests/test_controller_hat.java": {
+      "mode": "100644",
+      "sha256": "994a03030cd41faba458348ba4a76387a6bf9e2e6d9fb290cd17dc1647bd84f9"
+    },
+    "tests/test_controller_motion_policy.java": {
+      "mode": "100644",
+      "sha256": "53f16133dcec87fd8cb0380c0efb20dc2f87c786c30ed695be78f9bc2ad536f5"
+    },
+    "tests/test_dashboard_menu_label.java": {
+      "mode": "100644",
+      "sha256": "92a91fe4f22f95e5862af4c39aa1902b2e0d9e78cec92dec84bf21f29b53c5f0"
+    },
+    "tests/test_dashboard_presentation_policy.java": {
+      "mode": "100644",
+      "sha256": "b21116d52868551c278c1f200fc0086383e7d48f3167a55ce579271ff91286a7"
+    },
+    "tests/test_dashboard_responsive_layout_policy.java": {
+      "mode": "100644",
+      "sha256": "dbc33cd23bce05eccfd370843f797b0d80dfe02b8d13e3b981b03ce5bb14f07a"
+    },
+    "tests/test_diagnostic_presentation.java": {
+      "mode": "100644",
+      "sha256": "7b1fe46fba7d382ce7fe694fc7d7bb56a4dd9475bab01bd8b9b3829185a4708d"
+    },
+    "tests/test_dream_cadence.java": {
+      "mode": "100644",
+      "sha256": "5a6e4a522c7d78439d2edf813288fb5efb4af1d8ae4b0102574ad4119c161faf"
+    },
+    "tests/test_final_remote_ui_regressions.java": {
+      "mode": "100644",
+      "sha256": "f665ffeb76d2b5b79b74a7b7b7cfd29c3bb0dd79a7b2ae43a48b47b0e73486b3"
+    },
+    "tests/test_home_menu.java": {
+      "mode": "100644",
+      "sha256": "4188a5687eae608a98d819f270f7bcc787fbb8b2fe127044d2e62b2cb37aaab5"
+    },
+    "tests/test_input_hold_focus_guard.java": {
+      "mode": "100644",
+      "sha256": "d8ec49139dfb7396aa1c86bdd3b0dcf9f281fd01438f2b9bf74a442e63bc7bfe"
+    },
+    "tests/test_launch_registry.java": {
+      "mode": "100644",
+      "sha256": "7f0bc96470d82fa343dbe6231dc3072a98b46499dfd651a1a101101a1a1d34c6"
+    },
+    "tests/test_local_adb.java": {
+      "mode": "100644",
+      "sha256": "14dccb916117a67390ccf315b8127d5c17b32199ffd5765806673586d3e82400"
+    },
+    "tests/test_modal_controller_policy.java": {
+      "mode": "100644",
+      "sha256": "d117273c3ed347411a298cfbde884f3d55c60ac5494c1be7c24329bc7d8c936e"
+    },
+    "tests/test_pair_geometry.java": {
+      "mode": "100644",
+      "sha256": "6abffb8aefaafa0f604dff9208bca2cf79da956331c637e76031271c96ac4265"
+    },
+    "tests/test_pane_recovery.java": {
+      "mode": "100644",
+      "sha256": "a0636e9d71c233940333d06a94300bb54a44a91e1a20f5396120688df47176c0"
+    },
+    "tests/test_projection.java": {
+      "mode": "100644",
+      "sha256": "898eb6389fa5e4f8c05f88dab1b98c9430c6a476361f5affa24411333bfab41a"
+    },
+    "tests/test_recent_canvas_policy.java": {
+      "mode": "100644",
+      "sha256": "e4213f12f1b71298b8d49cc220ae06663ebabe00377597a38837b934345fc695"
+    },
+    "tests/test_recovery_notice.java": {
+      "mode": "100644",
+      "sha256": "dd86c23e34c85e17a301285f2e2be3d3291509d1b66821b6be2c6c22ff4064e9"
+    },
+    "tests/test_recovery_reload_wiring.py": {
+      "mode": "100644",
+      "sha256": "90ba187f81f3d1a2b289f34bbe51d647fa746b6c1104365fc8b050382c44beaa"
+    },
+    "tests/test_remote_focus_policy.java": {
+      "mode": "100644",
+      "sha256": "5308b105ebb767e4de3a1d2375eacdaaa56c213c7aa6347930e874e4345ef752"
+    },
+    "tests/test_remote_ui_session.java": {
+      "mode": "100644",
+      "sha256": "8b2091281403298637122e87dbf9e6444f8e50f3b4f92fa92e8433e755a25a07"
+    },
+    "tests/test_session_shortcut_policy.java": {
+      "mode": "100644",
+      "sha256": "3182d1484e221628b9ecbf057cbc6815aaa76a507365122086d54ef339b59aab"
+    },
+    "tests/test_window_broker_security.py": {
+      "mode": "100644",
+      "sha256": "f1664c54c23d91a0df25461d0c711715cf4bc634d304096b5601e7cc26974f93"
+    },
+    "third_party/adblib/LICENSE": {
+      "mode": "100644",
+      "sha256": "61d879598c25f78a9b249d354891f129946ccdda93a338d994fe71a2d0abd486"
+    },
+    "third_party/adblib/README.md": {
+      "mode": "100644",
+      "sha256": "ddd813a9302bb96686315d94ae296e61807e2acf1878110b6689450544145976"
+    },
+    "third_party/adblib/UPSTREAM.json": {
+      "mode": "100644",
+      "sha256": "ba1cfe7eab6c782503e9420d5bbdb75c28d92db63817e7ebb464b66bb60538fe"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/AdbBase64.java": {
+      "mode": "100644",
+      "sha256": "88ce533abf1ba0c6dc7fe7cdfe793a717da9921da74b772d773e01a6d2ace62e"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/AdbConnection.java": {
+      "mode": "100644",
+      "sha256": "b9f4ac4ac61fda7195af8a9fdbf1034028918b9d92be49521b5c98d5653d4237"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/AdbCrypto.java": {
+      "mode": "100644",
+      "sha256": "e62a99df7c58585c9aa6a1c0769300502070fef081632d151fbe33a1a735011c"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/AdbProtocol.java": {
+      "mode": "100644",
+      "sha256": "b1c6b88009dd20f0e25bf5ce05288d258a24da9a6a0845afcda55baeab3f718b"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/AdbStream.java": {
+      "mode": "100644",
+      "sha256": "5fc6e89706455f672db70cea1df829db5d40b1e28ecca6d807d5699c0346dea8"
+    },
+    "third_party/adblib/src/com/cgutman/adblib/package-info.java": {
+      "mode": "100644",
+      "sha256": "902f6c64b820c5f89098310770038418a128bed0f5805e0917da26bc3d7e63f2"
+    },
+    "tools/build_dashboard_0922_offline.sh": {
+      "mode": "100755",
+      "sha256": "d940314c5b327a5ec89edd4b14fbc095a6f573ddc81e321d104f2028c4ec902e"
+    },
+    "tools/build_dashboard_0923_offline.sh": {
+      "mode": "100755",
+      "sha256": "500826ee38d7f29cf67377f2b7111fafc82a0d44979c3209b8d7a85961c5d744"
+    },
+    "tools/build_dashboard_0924_offline.sh": {
+      "mode": "100755",
+      "sha256": "31ae2714d8868f5a5508b3b6408a2d69787e1c04a7406e1047f1bf2d3cfc8919"
+    },
+    "tools/build_dashboard_0925_offline.sh": {
+      "mode": "100644",
+      "sha256": "c11253c775665f32ef9efafccf9f7f2e93b23ee8ecbd1d1ff830fcd73644566d"
+    },
+    "tools/build_shieldarchy_dashboard_v6_offline.sh": {
+      "mode": "100755",
+      "sha256": "1fa6d7b14fd7a5173cba0ae3b6c4201c151a5b326f9fe42c89e3677a9dc24f07"
+    },
+    "tools/build_window_broker.sh": {
+      "mode": "100644",
+      "sha256": "6832ca25de989560fd1478887ad348c14620ba900b221a887cb5d2b83eb0bf26"
+    },
+    "tools/start_window_broker.py": {
+      "mode": "100755",
+      "sha256": "ff913a5e7a238ef28379c421ccda26c4179df863678e8e32f1855f28fe90e1c0"
+    },
+    "tools/windowbroker/KinegrarchyWindowBroker.java": {
+      "mode": "100644",
+      "sha256": "661f2a0cee84c672ac0964702577ed3ba03a6ec12a41cbb9f3a241ae1dc44180"
+    },
+    "tools/windowbroker/compile-only/android/window/TaskOrganizer.java": {
+      "mode": "100644",
+      "sha256": "abc81172709dfd77654f8f19398b7885942da1429eb2ad3f5851029c3843de49"
+    }
+  },
+  "schema": 1,
+  "scope": "Sanitized initial publication snapshot. Development Git history, review discussions, signing inputs and runtime data are excluded.",
+  "version": "0.9.25",
+  "version_code": 61
+}
