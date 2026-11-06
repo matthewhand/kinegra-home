@@ -1,6 +1,6 @@
 # Kinegra Home
 
-![Original Kinegra Home banner](docs/branding/kinegra-home-banner-v2.png)
+![Kinegra Home](docs/branding/kinegra-home-banner-v2.png)
 
 **Built for ultrawide screens. Two apps. One remote.**
 
@@ -19,7 +19,7 @@ adb install -r KinegraHome-0.9.25.apk
 
 Tested on the original NVIDIA SHIELD with **SHIELD Experience 9.x (Android 11)**. The dashboard supports Android 8.0+; two-app window support targets Android 11 on SHIELD. Keep app data and the same signing key when upgrading.
 
-Two-app layouts need an owner-authorized local debugging helper. Enable the required developer settings and approve the app's connection once. [Setup and recovery](docs/SETUP.md).
+Two-app layouts use a local debugging helper. Enable the required developer settings and approve the app's connection once. [Setup and recovery](docs/SETUP.md).
 
 ## Use two apps
 
@@ -53,11 +53,11 @@ See [compatibility and testing](docs/TESTING.md) and [privacy and local debuggin
 
 ## Build and contribute
 
-Use JDK 17, Android SDK Platform 34 and Build-Tools 34.0.0 on Linux. The source builds an unsigned APK without private assets, keys or another project checkout. [Build and signing instructions](BUILDING.md).
+Use JDK 17, Android SDK Platform 34 and Build-Tools 34.0.0 on Linux. [Build and signing instructions](BUILDING.md) · [Source layout and contributing](docs/DEVELOPMENT.md).
 
 Bug reports should include the app/firmware versions, layout, steps and expected behavior. Remove account details and private addresses from attachments. [Issues](https://github.com/matthewhand/kinegra-home/issues).
 
-[Current release scope and validation](docs/RELEASE.md).
+[Release notes](docs/RELEASE.md).
 
 ## License
 

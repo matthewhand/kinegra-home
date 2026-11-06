@@ -1,6 +1,6 @@
 # Setup and recovery
 
-The supported development target is NVIDIA SHIELD with Android 11. Keep the stock launcher and an authorized recovery computer available. Installing the APK alone does not grant control of other apps.
+These steps configure two-app window support on NVIDIA SHIELD with SHIELD Experience 9.x (Android 11). Keep the stock launcher available during setup.
 
 1. Enable Developer options and Network debugging on your own Shield.
 2. Enable resizable/freeform activities for two-app layouts. On compatible Android 11 firmware these developer settings may be exposed in the UI. A trusted computer can inspect `enable_freeform_support` and `force_resizable_activities` under Android's global settings; the optional computer helper requires both to read `1`.

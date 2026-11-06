@@ -35,7 +35,7 @@ public final class LaunchRegistry {
     public static final String MORE_APPS_PACKAGE = "eu.chainfire.tv.sideloadlauncher";
     public static final Target[] MORE_TARGETS = {
         new Target("Kinegra Cam", "local.shieldcam", "Camera and photos"),
-        new Target("Kinegra ShieldAmp", "org.local.tegramilkdrop", "Music visualizer"),
+        new Target("Kinegra Amp", "org.local.tegramilkdrop", "Music visualizer"),
         new Target("Sideload Launcher", MORE_APPS_PACKAGE, "Other installed apps")
     };
 

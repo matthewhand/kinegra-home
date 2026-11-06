@@ -14,11 +14,11 @@
     },
     "PRIVACY.md": {
       "mode": "100644",
-      "sha256": "c7c24ec52350a43d27deaa40072c3053816c91a58225f8d546e8fda00595a21d"
+      "sha256": "48b1842cab0b9d5a39ed0abed9b8ac5cfba02a278ad29e7f742c03a006a42dae"
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "0c40e5486f0768909a7c11aa22459649da7b7f91dcbf119b5ab5dbf85fbcfc3f"
+      "sha256": "23c65183e778df400d32c1209e8f756ba8a423f8488f6ab57f9802d5860d8216"
     },
     "THIRD-PARTY-NOTICES.md": {
       "mode": "100644",
@@ -78,7 +78,7 @@
     },
     "android/dashboard/LaunchRegistry.java": {
       "mode": "100644",
-      "sha256": "e02335d95e0f94ba7df8db7e858a167f24585b4152833750beeb66db919854b4"
+      "sha256": "9091f1cefdf54719b73feda609e5bba6566a2f1979e3b673c732cfbdfd2e07ae"
     },
     "android/dashboard/LocalAdbBootstrap.java": {
       "mode": "100644",
@@ -226,7 +226,7 @@
     },
     "docs/SETUP.md": {
       "mode": "100644",
-      "sha256": "429f4a8c3b486e30f35b29534626b629662a6759fe10bf18bcdbe8b97e8fba40"
+      "sha256": "d6ebf9da37d3c0c863667af0f74b3a476ce19596fba4807d38c8c928c75982ba"
     },
     "docs/TESTING.md": {
       "mode": "100644",
