@@ -17,7 +17,7 @@ def verify_checksum_output(output, expected):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--serial',required=True);args=p.parse_args()
-    root=Path(__file__).resolve().parents[1];jar=root/'build/kinegrarchy-window-broker.jar'
+    root=Path(__file__).resolve().parents[1];jar=root/'build/kinegra-home-window-broker.jar'
     if not jar.is_file():raise SystemExit('Build the window helper first: bash tools/build_window_broker.sh')
     def adb(*values,check=True):
         r=subprocess.run(['adb','-s',args.serial,*map(str,values)],capture_output=True,text=True,timeout=25)

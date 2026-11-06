@@ -6,8 +6,7 @@
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.hardware.gamepad" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- Local ADB uses outbound loopback only. No network listener.
-    Former zero-permission dashboard: App choices remain local; only visible launcher activities may be selected. -->
+    <!-- Local ADB uses outbound loopback; app choices come from installed launcher activities. -->
     <!-- Android 11 visibility: explicit shortcuts plus local launcher discovery for user-selected pairs. -->
     <queries>
         <intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LEANBACK_LAUNCHER"/></intent>

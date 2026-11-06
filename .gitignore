@@ -4,7 +4,7 @@ __pycache__/
 build/
 *.apk
 
-# Never stage Metaxy signing credentials or keys.
+# Local signing credentials and keys.
 .secrets/
 .signing/
 *.jks
@@ -16,3 +16,13 @@ build/
 *.pem
 *.pass
 *.password
+
+# Generated Android and editor outputs
+*.class
+*.dex
+*.jar
+*.idsig
+local.properties
+.env
+.env.*
+*.log

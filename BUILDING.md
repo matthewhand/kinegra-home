@@ -1,32 +1,33 @@
-# Building Kinegra Home
+# Build Kinegra Home
 
-The current application is 0.9.25 / code 61. Builds produce an unsigned APK and do not connect to a device. No private source repository, signing key or installed APK is needed to compile the Java application and its helper.
+## Requirements
 
-## Toolchain
-
-Use Linux, JDK 17, Python 3, `zip`, `unzip`, `tar`, Git, Android SDK Platform 34 and Android SDK Build-Tools 34.0.0. The existing reviewed build was made on Ubuntu. Install the SDK platform and build-tools before running the offline build.
-
-Set your own toolchain locations; the scripts do not assume another project's checkout:
+Linux, JDK 17, Python 3, Git, zip/unzip, Android SDK Platform 34 and Build-Tools 34.0.0. Prepare these tools before building; the build runs offline.
 
 ```sh
 export JAVA_HOME="/path/to/jdk-17"
 export ANDROID_HOME="/path/to/android-sdk"
 export PATH="$JAVA_HOME/bin:$PATH"
-bash tools/build_dashboard_0925_offline.sh
+bash tools/build.sh
 ```
 
-`ANDROID_SDK_ROOT` is accepted when `ANDROID_HOME` is unset. The helper archive uses a fixed ZIP timestamp, avoiding timestamp-only changes to its checksum. The build verifies the pinned Android 34 platform JAR SHA-256: `6cea1df3efb77103ac3e2beb9bf4718964b0e0869ab16d39d29d5cbae1c147ad`. A different platform artifact stops the build. Review the pin deliberately when changing SDK inputs.
+Run from a clean committed checkout. The script exports that commit, checks the source manifest, runs the tests, compiles the task helper and app, and produces **`build/KinegraHome-0.9.25-UNSIGNED.apk`**. Existing APKs are never overwritten. `ANDROID_SDK_ROOT` is also accepted.
 
-Run from a clean committed checkout. The versioned build exports that commit, runs the existing Java policy checks, compiles the helper and application, and produces `build/Kinegrarchy-v0.9.25-code61-UNSIGNED.apk`. It refuses to overwrite that candidate; keep an existing artifact and use a fresh checkout for another build. Build the helper separately with `bash tools/build_window_broker.sh` only when needed for the optional computer-assisted starter.
+The Android platform JAR is pinned to SHA-256 `6cea1df3efb77103ac3e2beb9bf4718964b0e0869ab16d39d29d5cbae1c147ad`. Toolchain/dependency changes require an intentional pin update. The helper archive uses fixed ZIP timestamps.
 
-## Signing and installation
+## Tests
 
-Sign and align an APK using Android's signing tools and a key you control. Project signing keys are not distributed. Release builds include accessible project/AdbLib notices in About and in the APK assets. An update to an existing installation must use that installation's original key; a newly chosen key cannot update it in place. Do not uninstall or clear app data to work around a mismatch on the development Shield.
+```sh
+bash tools/test.sh
+python3 tools/check_source.py
+```
 
-Install your signed build with an Android TV sideloading tool, or use `adb install -r YOUR_SIGNED_APK.apk` after selecting and verifying your own device. Documentation uses placeholders rather than a private device address. Android 11 SHIELD is the tested target; API 26 is the ordinary dashboard minimum, while the task helper uses Android 11 platform APIs.
+Host policy and security tests require JDK 17 and Python 3, without an Android SDK or device. See [testing](docs/TESTING.md) and [source layout](docs/DEVELOPMENT.md).
 
-Include [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md) with release materials. Keep source, APK version, checksum and signing-certificate identity together when publishing a build.
+## Signing and updates
 
-## Validation limits
+The build produces an unsigned APK. Sign and align it with Android's signing tools and a key you control. To update an existing installation, use its original signing key and preserve app data. Install your signed build with a sideloading tool or `adb install -r YOUR_SIGNED_APK.apk`.
 
-The source has narrow/wide layout and policy fixtures plus bounded, muted Shield recovery checks. This is not broad physical-TV, controller, DRM or endurance acceptance. PiP is experimental and some app pairs may show a blank pane. Touch mapping has limited physical coverage. See [validation](docs/TESTING.md).
+Include [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md) with binary distributions. Build/signing inputs and user data do not belong in source control.
+
+The published 0.9.25 APK and its exact source archive remain attached to the release tag. Later source cleanup does not replace those artifacts. For the optional computer-assisted helper, run `bash tools/build_window_broker.sh`, then follow [setup](docs/SETUP.md).

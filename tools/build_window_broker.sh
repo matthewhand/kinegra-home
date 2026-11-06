@@ -13,5 +13,5 @@ mkdir -p "$root/build/window-broker/compile-only"
  "$root/android/dashboard/PairGeometry.java" "$root/android/dashboard/BrokerPolicy.java" "$root/android/dashboard/PairProtocol.java" "$root/tools/windowbroker/KinegrarchyWindowBroker.java"
 "$JDK/bin/jar" cf "$root/build/window-broker/classes.jar" -C "$root/build/window-broker/classes" .
 "$SDK/build-tools/34.0.0/d8" --min-api 30 --classpath "$root/build/window-broker/compile-only.jar" --lib "$SDK/platforms/android-34/android.jar" --output "$root/build/window-broker/dex" "$root/build/window-broker/classes.jar"
-"$JDK/bin/jar" --create --file "$root/build/kinegrarchy-window-broker.jar" --date=1980-01-01T00:00:02Z -C "$root/build/window-broker/dex" classes.dex
-sha256sum "$root/build/kinegrarchy-window-broker.jar"
+"$JDK/bin/jar" --create --file "$root/build/kinegra-home-window-broker.jar" --date=1980-01-01T00:00:02Z -C "$root/build/window-broker/dex" classes.dex
+sha256sum "$root/build/kinegra-home-window-broker.jar"

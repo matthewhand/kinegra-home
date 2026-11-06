@@ -1,15 +1,13 @@
 # Kinegra Home 0.9.25 public beta
 
-Side-by-side Split View is the main workflow: arrange two apps, choose Left/Right app roles, adjust their widths and swap positions. The optional session-shortcut service provides remote Back-hold controls while another app has focus. Individual failed panes can be reloaded. This release fixes reload warnings returning after Dismiss while a pane still needs recovery.
+Arrange two apps side by side, adjust pane widths, swap positions and control the workspace with a TV remote. Optional accessibility session shortcuts provide Back-hold controls while another app has focus. Individual failed panes can be reloaded.
 
-PiP is experimental and some app pairs may show a blank pane. DRM, orientation, app minimum sizes and audio focus depend on Android and the selected apps. Development targets the original NVIDIA SHIELD on SHIELD Experience 9.x (Android 11) with an ultrawide display; broader hardware, physical portrait/16:9, touch and endurance coverage remains limited.
+This release fixes reload warnings returning after Dismiss. The regression tests cover the production reload callback and repeated recovery checks.
 
-## Validation
+The tested target is an original NVIDIA SHIELD with SHIELD Experience 9.x (Android 11), using an ultrawide display. PiP is experimental and some app pairs may show a blank pane. Other hardware and long-session coverage is limited.
 
-The signed 0.9.25 / code 61 APK (`0.9.25-beta-preview` in Android) was installed in place. The original certificate, APK hash and retained installation identity were verified. The offline build and policy checks passed. Two actual reload-callback regressions reproduce the old Dismiss failures and pass with the fix. [Validation](TESTING.md) · [Setup](SETUP.md).
+Download `KinegraHome-0.9.25.apk` from [Releases](https://github.com/matthewhand/kinegra-home/releases/tag/v0.9.25). Android displays `0.9.25-beta-preview`, code 61. Preserve app data and the same signing identity when updating.
 
-## Distribution
+The release includes its signed APK, exact source archive, component inventory, licence bundle, source manifest and checksums. Those artifacts stay tied to the release tag; later source cleanup does not replace them. Original code, documentation and artwork use MIT; dependencies and third-party screenshot content retain their terms.
 
-The source begins with a clean publication snapshot, without former private review/development history. Final documentation and manifest updates do not change the reviewed APK's application or build inputs. Release metadata identifies the exact final source and unchanged signed artifact.
-
-Install `KinegraHome-0.9.25.apk`; building from source produces `build/Kinegrarchy-v0.9.25-code61-UNSIGNED.apk`. Preserve the package, original signing identity and app data when updating. Source, component inventory, licence bundle and SHA-256 checksums accompany the release. Original code, documentation and artwork use MIT; dependencies and third-party screenshot content retain their terms. The README walkthrough retains its labelled earlier staged-capture versions and is not a performance benchmark.
+[Setup](SETUP.md) · [Build](../BUILDING.md) · [Tests and compatibility](TESTING.md)

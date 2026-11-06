@@ -1,17 +1,20 @@
-# Validation and support scope
+# Testing and compatibility
 
-The current public beta is **0.9.25 / code 61** (Android version name `0.9.25-beta-preview`). The signed APK was installed in place on the original NVIDIA SHIELD running SHIELD Experience 9.x (Android 11). Its hash, original certificate and retained installation identity were verified.
+## Run tests
 
-## Automated evidence
+```sh
+bash tools/test.sh
+python3 tools/check_source.py
+```
 
-The offline build runs Java policy and window-broker checks. Session-shortcut tests cover exact accessibility-component matching, Android's global accessibility state and honest availability captions. Reload/recovery fixtures cover every failed-pane mask and repeated health polls. Two regressions exercise the actual Android reload callback: they reproduce Dismiss failures in the prior implementation and pass with the current fix.
+The host suite covers launcher/input policies, layout geometry, accessibility shortcut availability, loopback helper boundaries and pane recovery. The reload callback regressions exercise the production callback with deterministic UI/helper boundaries. A full `bash tools/build.sh` also compiles the app/helper and checks package metadata.
 
-Layout fixtures cover narrow/portrait, standard-TV and ultrawide dimensions. Host fixtures are distinct from physical-device evidence; they do not establish universal Android TV or controller compatibility.
+Layout fixtures cover portrait, standard-TV and ultrawide dimensions. Tests use synthetic tasks and temporary state; no live account, camera or device is needed.
 
-## Beta limits
+## Device coverage
 
-Side-by-side Split View is the main workflow. PiP is experimental and some app pairs may show a blank pane. DRM, orientation, minimum app sizes and audio focus depend on Android and the chosen apps.
+Tested on an original NVIDIA SHIELD with SHIELD Experience 9.x (Android 11) and an ultrawide display. Broader physical portrait/16:9, touch, controller, firmware and long-session coverage is limited.
 
-Development uses an ultrawide display. Broader physical portrait/16:9, touch, controller, firmware and long-session coverage remains limited.
+Split View is the main workflow. PiP is experimental and some app pairs may show a blank pane. DRM, orientation, minimum app sizes and audio focus depend on Android and the chosen apps.
 
-Bug reports should include versions, input device, layout, steps and expected behavior. Performance reports should state duration and display refresh. Remove account details, private addresses, camera imagery and opaque access URLs from reports.
+For a change affecting device behavior, check launch, focus, swap, Back-hold, app exit/recovery and end-layout with the relevant remote/controller. Reports should include versions, layout, steps and expected behavior. Remove account details, private addresses and personal imagery from attachments.

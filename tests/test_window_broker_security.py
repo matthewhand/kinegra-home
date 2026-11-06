@@ -6,8 +6,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 class WindowBrokerSecurity(unittest.TestCase):
-    def test_app_remains_permission_free(self):
-        root = ET.parse(ROOT / 'harness/AndroidManifest.xml').getroot()
+    def test_app_only_requests_loopback_network_permission(self):
+        root = ET.parse(ROOT / 'android/AndroidManifest.xml').getroot()
         self.assertEqual([n.get('{http://schemas.android.com/apk/res/android}name') for n in root.findall('uses-permission')], ['android.permission.INTERNET'])
         self.assertEqual(len(root.find('application').findall('provider')), 1)
 
@@ -62,7 +62,7 @@ class WindowBrokerSecurity(unittest.TestCase):
 
     def test_shortcut_service_does_not_retrieve_screens(self):
         ns = '{http://schemas.android.com/apk/res/android}'
-        root = ET.parse(ROOT / 'harness/res/xml/session_shortcuts.xml').getroot()
+        root = ET.parse(ROOT / 'android/res/xml/session_shortcuts.xml').getroot()
         self.assertEqual(root.get(ns + 'canRetrieveWindowContent'), 'false')
         self.assertEqual(root.get(ns + 'accessibilityEventTypes'), 'typeWindowStateChanged')
         text = (ROOT / 'android/dashboard/SessionShortcutService.java').read_text()

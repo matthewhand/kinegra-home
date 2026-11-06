@@ -12,7 +12,6 @@ import tv.metaxy.dashboard.PairProtocol;
 /** A shell-only Binder handoff. No network socket, token, query or file access. */
 public final class WindowBrokerProvider extends ContentProvider {
     private static volatile IBinder current;
-    static volatile int reparentCode,locationCode;
     public static IBinder current(){IBinder b=current;return b!=null&&b.pingBinder()?b:null;}
     @Override public boolean onCreate(){return true;}
     @Override public Bundle call(String method,String argument,Bundle extras){
