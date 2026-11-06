@@ -17,7 +17,7 @@ bash tools/build_dashboard_0925_offline.sh
 
 `ANDROID_SDK_ROOT` is accepted when `ANDROID_HOME` is unset. The helper archive uses a fixed ZIP timestamp, avoiding timestamp-only changes to its checksum. The build verifies the pinned Android 34 platform JAR SHA-256: `6cea1df3efb77103ac3e2beb9bf4718964b0e0869ab16d39d29d5cbae1c147ad`. A different platform artifact stops the build. Review the pin deliberately when changing SDK inputs.
 
-Run from a clean committed checkout. The versioned build exports that commit, runs the existing Java policy checks, compiles the helper and application, and produces `build/Kinegrarchy-v0.9.25-code59-UNSIGNED.apk`. It refuses to overwrite that candidate; keep an existing artifact and use a fresh checkout for another build. Build the helper separately with `bash tools/build_window_broker.sh` only when needed for the optional computer-assisted starter.
+Run from a clean committed checkout. The versioned build exports that commit, runs the existing Java policy checks, compiles the helper and application, and produces `build/Kinegrarchy-v0.9.25-code61-UNSIGNED.apk`. It refuses to overwrite that candidate; keep an existing artifact and use a fresh checkout for another build. Build the helper separately with `bash tools/build_window_broker.sh` only when needed for the optional computer-assisted starter.
 
 ## Signing and installation
 
@@ -29,4 +29,4 @@ Include [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md) wit
 
 ## Validation limits
 
-The source has narrow/wide layout and policy fixtures plus bounded, muted Shield recovery checks. This is not broad physical-TV, controller, DRM or endurance acceptance. PiP rendering and touch mapping remain experimental. See [validation](docs/TESTING.md).
+The source has narrow/wide layout and policy fixtures plus bounded, muted Shield recovery checks. This is not broad physical-TV, controller, DRM or endurance acceptance. PiP is experimental and some app pairs may show a blank pane. Touch mapping has limited physical coverage. See [validation](docs/TESTING.md).

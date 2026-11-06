@@ -12,7 +12,7 @@ Kinegra Home is an Android TV launcher for adjustable Split View and experimenta
 
 ## Install
 
-Prepared beta candidate: **0.9.25 / code 61**. Releases are available only when published on the [Releases page](https://github.com/matthewhand/kinegra-home/releases). To install a signed release, use an Android TV sideloading tool, or:
+Public beta: **0.9.25 / code 61**. Download the signed APK from the [Releases page](https://github.com/matthewhand/kinegra-home/releases). To install a signed release, use an Android TV sideloading tool, or:
 
 ```sh
 adb connect DEVICE_IP:ADB_PORT
@@ -45,7 +45,7 @@ If an app closes, an inline warning offers **Reload left/right app** or **Reload
 
 ## Beta scope
 
-Split View is the primary demonstrated workflow. **PiP is experimental and some app pairs can render blank.** DRM, orientation, minimum app sizes and audio focus depend on Android and the selected apps. Touch mapping, long sessions, physical portrait/16:9 coverage and wider controller/hardware acceptance remain open. Development has used an ultrawide display; layout fixtures also cover narrow and standard-TV sizes.
+Side-by-side Split View is the main workflow. Matthew confirms testing every version through 0.9.25. **PiP is experimental and some app pairs can render blank.** DRM, orientation, minimum app sizes and audio focus depend on Android and the selected apps. Broader touch, long-session, physical portrait/16:9 and controller/hardware coverage remains limited. Development has used an ultrawide display; layout fixtures also cover narrow and standard-TV sizes.
 
 The canvas is a visual arrangement, not a security boundary. Kinegra Home keeps the stock launcher available and does not replace the default Home role. It does not mix audio or change volume. See [privacy and local debugging](PRIVACY.md) and [validation](docs/TESTING.md).
 

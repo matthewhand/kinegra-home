@@ -6,7 +6,7 @@
     },
     "BUILDING.md": {
       "mode": "100644",
-      "sha256": "b3a1607f2b0f7741546baf3840e73cee50ed9d6c23eca66dba793e63053d4eb5"
+      "sha256": "48a136d9396bd75fb81675a1c99ebfc241a68710ab214dbe273880ec6d481acb"
     },
     "LICENSE": {
       "mode": "100644",
@@ -18,7 +18,7 @@
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "0da00609d47f9acaaf99976d9a3d6059756c584db5aa0d10c6ebcb5f048017cd"
+      "sha256": "4e58e0aae1428d34e6ccbaa3629838a86012ccb0487a3c2085f4ef18d04710aa"
     },
     "THIRD-PARTY-NOTICES.md": {
       "mode": "100644",
@@ -242,7 +242,7 @@
     },
     "docs/RELEASE.md": {
       "mode": "100644",
-      "sha256": "8a7c129d5564e8164f3a931831fd13d7ee2ab50956bd0eef69a4d94a14fc3401"
+      "sha256": "110815753ca7973ad52681bb5085477879251e301b164981ef127503bde355aa"
     },
     "docs/SETUP.md": {
       "mode": "100644",
@@ -250,7 +250,7 @@
     },
     "docs/TESTING.md": {
       "mode": "100644",
-      "sha256": "7b9ee7947da1e186da624485613641edb91aafcc4e7c86477a7ffbb6008a76dd"
+      "sha256": "838d98549b464911c08d21f354c50a443e34ea50219256f892015601c44c5b44"
     },
     "docs/branding/README.md": {
       "mode": "100644",
