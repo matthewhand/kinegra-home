@@ -2,11 +2,11 @@
 
 Side-by-side Split View is the main workflow: arrange two apps, choose Left/Right app roles, adjust their widths and swap positions. The optional session-shortcut service provides remote Back-hold controls while another app has focus. Individual failed panes can be reloaded. This release fixes reload warnings returning after Dismiss while a pane still needs recovery.
 
-PiP is experimental and some app pairs may show a blank pane. DRM, orientation, app minimum sizes and audio focus depend on Android and the selected apps. Development targets the original NVIDIA SHIELD on Android 11 with an ultrawide display; broader hardware, physical portrait/16:9, touch and endurance coverage remains limited.
+PiP is experimental and some app pairs may show a blank pane. DRM, orientation, app minimum sizes and audio focus depend on Android and the selected apps. Development targets the original NVIDIA SHIELD on SHIELD Experience 9.x (Android 11) with an ultrawide display; broader hardware, physical portrait/16:9, touch and endurance coverage remains limited.
 
 ## Validation
 
-The signed 0.9.25 / code 61 APK (`0.9.25-beta-preview` in Android) was installed in place. The original certificate, APK hash and retained installation identity were verified. Matthew confirms testing every version through this release. The offline build and policy checks passed. Two actual reload-callback regressions reproduce the old Dismiss failures and pass with the fix. [Validation](TESTING.md) · [Setup](SETUP.md).
+The signed 0.9.25 / code 61 APK (`0.9.25-beta-preview` in Android) was installed in place. The original certificate, APK hash and retained installation identity were verified. The offline build and policy checks passed. Two actual reload-callback regressions reproduce the old Dismiss failures and pass with the fix. [Validation](TESTING.md) · [Setup](SETUP.md).
 
 ## Distribution
 

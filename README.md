@@ -2,13 +2,11 @@
 
 ![Original Kinegra Home banner](docs/branding/kinegra-home-banner-v2.png)
 
-**Two apps. One screen. A remote in your hand.**
+**Built for ultrawide screens. Two apps. One remote.**
 
-Kinegra Home is an Android TV launcher for adjustable Split View and experimental picture in picture. Keep a browser beside a game or player, swap their positions, and control the workspace with a TV remote.
+Kinegra Home is an Android TV launcher designed to make use of an ultrawide monitor’s extra screen space. Run two apps side by side on NVIDIA SHIELD: keep a browser beside a game or music player, adjust the split, and control the workspace with a TV remote.
 
 ![Kinegra Home Split View walkthrough](assets/readme/kinegra-home-split-remote.gif)
-
-*Staged walkthrough using earlier 0.9.14/0.9.16 captures. Presentation timing is not a performance benchmark. [Capture versions and attribution](assets/readme/README.md).*
 
 ## Install
 
@@ -19,7 +17,7 @@ adb connect DEVICE_IP:ADB_PORT
 adb install -r KinegraHome-0.9.25.apk
 ```
 
-The tested target is the original NVIDIA SHIELD on Android 11. The dashboard supports API 26+, while two-app window support uses Android 11 platform APIs. Other firmware and TV hardware are not established targets. Keep app data and the same signing key when upgrading.
+Tested on the original NVIDIA SHIELD with **SHIELD Experience 9.x (Android 11)**. The dashboard supports Android 8.0+; two-app window support targets Android 11 on SHIELD. Keep app data and the same signing key when upgrading.
 
 Two-app layouts need an owner-authorized local debugging helper. Enable the required developer settings and approve the app's connection once. [Setup and recovery](docs/SETUP.md).
 
@@ -35,9 +33,11 @@ Split View supports 20:80–80:20 ratios. A video-shaped layout reserves a full-
 | Action | Shield remote | ASUS controller |
 | --- | --- | --- |
 | Choose a control | D-pad, OK | D-pad, A |
-| Swap views | Back + OK | Select + Start |
-| Open session controls | Hold Back | Hold Select |
-| Send Back to the active app | Short Back | Short Select |
+| Swap views | Back + OK | Back-arrow + Start |
+| Open session controls | Hold Back | Hold Back-arrow |
+| Send Back to the active app | Short Back | Short Back-arrow |
+
+The ASUS controller’s Back-arrow button is called **Select** by Android.
 
 Shortcuts while another app has focus require the optional **Kinegra Home session shortcuts** accessibility service. When the service is off, the app chooser and session menu show that Back-hold is unavailable and offer **Enable session shortcuts**. This opens Android settings for your choice. The service does not retrieve screen content or log accessibility events. **End layout** restores the selected tasks to fullscreen; **Home** opens the stock launcher.
 
@@ -45,9 +45,11 @@ If an app closes, an inline warning offers **Reload left/right app** or **Reload
 
 ## Beta scope
 
-Side-by-side Split View is the main workflow. Matthew confirms testing every version through 0.9.25. **PiP is experimental and some app pairs can render blank.** DRM, orientation, minimum app sizes and audio focus depend on Android and the selected apps. Broader touch, long-session, physical portrait/16:9 and controller/hardware coverage remains limited. Development has used an ultrawide display; layout fixtures also cover narrow and standard-TV sizes.
+Split View is the main workflow. **PiP is experimental; some app pairs may show a blank pane.** Apps can impose their own orientation, minimum size, video and audio restrictions.
 
-The canvas is a visual arrangement, not a security boundary. Kinegra Home keeps the stock launcher available and does not replace the default Home role. It does not mix audio or change volume. See [privacy and local debugging](PRIVACY.md) and [validation](docs/TESTING.md).
+Development and testing use an ultrawide display. Layout checks also cover portrait and standard TV sizes; broader hardware and long-session coverage is limited.
+
+See [compatibility and testing](docs/TESTING.md) and [privacy and local debugging](PRIVACY.md).
 
 ## Build and contribute
 

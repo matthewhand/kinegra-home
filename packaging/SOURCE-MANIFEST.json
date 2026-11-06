@@ -18,7 +18,7 @@
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "4e58e0aae1428d34e6ccbaa3629838a86012ccb0487a3c2085f4ef18d04710aa"
+      "sha256": "0c40e5486f0768909a7c11aa22459649da7b7f91dcbf119b5ab5dbf85fbcfc3f"
     },
     "THIRD-PARTY-NOTICES.md": {
       "mode": "100644",
@@ -242,7 +242,7 @@
     },
     "docs/RELEASE.md": {
       "mode": "100644",
-      "sha256": "110815753ca7973ad52681bb5085477879251e301b164981ef127503bde355aa"
+      "sha256": "8db714443a5d0850b2bd3a0269cacff18abcbe9c9b771e8611322f6886739fa4"
     },
     "docs/SETUP.md": {
       "mode": "100644",
@@ -250,7 +250,7 @@
     },
     "docs/TESTING.md": {
       "mode": "100644",
-      "sha256": "838d98549b464911c08d21f354c50a443e34ea50219256f892015601c44c5b44"
+      "sha256": "d040a523d66652325217b12bfbfaf3d7adc19aeeb130a95d11d0e5bf38858a64"
     },
     "docs/branding/README.md": {
       "mode": "100644",

@@ -1,6 +1,6 @@
 # Validation and support scope
 
-The current public beta is **0.9.25 / code 61** (Android version name `0.9.25-beta-preview`). The signed APK was installed in place on the original NVIDIA SHIELD running Android 11. Its hash, original certificate and retained installation identity were verified. Matthew confirms that he has tested every version through 0.9.25.
+The current public beta is **0.9.25 / code 61** (Android version name `0.9.25-beta-preview`). The signed APK was installed in place on the original NVIDIA SHIELD running SHIELD Experience 9.x (Android 11). Its hash, original certificate and retained installation identity were verified.
 
 ## Automated evidence
 
@@ -12,6 +12,6 @@ Layout fixtures cover narrow/portrait, standard-TV and ultrawide dimensions. Hos
 
 Side-by-side Split View is the main workflow. PiP is experimental and some app pairs may show a blank pane. DRM, orientation, minimum app sizes and audio focus depend on Android and the chosen apps.
 
-Development uses an ultrawide display. Broader physical portrait/16:9, touch, controller, firmware and long-session coverage remains limited. These limits do not negate the owner's hands-on testing of each release.
+Development uses an ultrawide display. Broader physical portrait/16:9, touch, controller, firmware and long-session coverage remains limited.
 
 Bug reports should include versions, input device, layout, steps and expected behavior. Performance reports should state duration and display refresh. Remove account details, private addresses, camera imagery and opaque access URLs from reports.
