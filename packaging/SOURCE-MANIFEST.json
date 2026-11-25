@@ -18,7 +18,7 @@
     },
     "README.md": {
       "mode": "100644",
-      "sha256": "23c65183e778df400d32c1209e8f756ba8a423f8488f6ab57f9802d5860d8216"
+      "sha256": "b1086fa824b0ca0ef4c90c567f90b2475480c0dae1a61fc087aed51084c4b17a"
     },
     "THIRD-PARTY-NOTICES.md": {
       "mode": "100644",
@@ -226,7 +226,7 @@
     },
     "docs/SETUP.md": {
       "mode": "100644",
-      "sha256": "d6ebf9da37d3c0c863667af0f74b3a476ce19596fba4807d38c8c928c75982ba"
+      "sha256": "895bfb0835aea3b12b5123efc60c09ca5f706a1d0591756ffa27d9160899924b"
     },
     "docs/TESTING.md": {
       "mode": "100644",

@@ -21,6 +21,8 @@ Tested on the original NVIDIA SHIELD with **SHIELD Experience 9.x (Android 11)**
 
 Two-app layouts use a local debugging helper. Enable the required developer settings and approve the app's connection once. [Setup and recovery](docs/SETUP.md).
 
+For builds with autostart support, see [Start Kinegra Home at boot](docs/SETUP.md#start-kinegra-home-at-boot). Boot startup requires version 0.9.27 or later.
+
 ## Use two apps
 
 1. Open Home and choose **Split View** or **Picture in Picture**.
